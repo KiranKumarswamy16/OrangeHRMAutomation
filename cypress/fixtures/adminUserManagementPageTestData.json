@@ -1,0 +1,12 @@
+{
+    "addUserTestDataCase1": {
+      "employeename": "Shamboo",
+      "username": "Shambu",
+      "password": "ShambooShankara@1234",
+      "confirmPassword": "ShambooShankara@1234",
+      "newlyCreatedEmployeeText": "Shamboo Shankara",
+      "usernameExistText": "Already exists",
+      "deleteConfirmationNoRecordsFoundMessage": "No Records Found"
+     
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "usernameTextboxName": "username",
+    "passwordTextboxName": "password",
+    "loginButtonClass": "orangehrm-login-button",
+    "userDropdownClass": "oxd-userdropdown-name",
+    "logoutButtonTag": "a",
+    "logoutButtonText": "Logout"
+  }
+  

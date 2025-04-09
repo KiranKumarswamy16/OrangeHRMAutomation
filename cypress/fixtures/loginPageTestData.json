@@ -1,0 +1,29 @@
+{
+    "validUsernamePassword": {
+      "username": "Admin",
+      "password": "admin123",
+      "loginPageTitleText": "Forgot your password?",
+      "dashboardPageTitleText": "Dashboard"
+
+    },
+
+    "invalidUsername": {
+      "username": "fakeuser",
+      "password": "admin123",
+      "invalidUsernameMessage": "Invalid credentials"
+    },
+
+    "invalidPassword": {
+      "username": "Admin",
+      "password": "fakeuser123",
+      "invalidPasswordMessage": "Invalid credentials"
+    },
+
+    "emptyUsernamePassword": {
+      "username": "      ",
+      "password": "      ",
+      "emptyUsernamePasswordMessage": "Required"
+    }
+
+  }
+  

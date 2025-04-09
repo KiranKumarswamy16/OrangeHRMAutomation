@@ -1,0 +1,11 @@
+{
+    "attendancePunchInPunchOutCase1": {
+      "employeeAttendancePunchInNote": "Employee Successfully Punched In",
+      "employeeAttendancePunchOutNote": "Employee Successfully Punched Out",
+      "employeeAttendancePunchOutValidationText": "Punch Out",
+      "employeeAttendancePunchedOutValidationText": "Punched Out",
+      "employeeAttendancePunchInValidationText": "Punch In",
+      "employeeAttendancePunchedInValidationText": "Punched In"
+     
+    }
+}

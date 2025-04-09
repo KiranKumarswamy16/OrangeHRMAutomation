@@ -1,0 +1,13 @@
+{
+    "firsname_textbox_name": "firstName",
+    "middlename_textbox_name": "middleName",
+    "lastname_textbox_name": "lastName",
+    "employeeid_textbox_parent_label": "label",
+    "employeeid_textbox_parent_text": "Employee Id",
+    "employeeid_textbox_child_label": "input",
+    "employeeid_textbox_child_class": "oxd-input",
+    "save_button_text": "Save",
+    "cancel_button_text": "Cancel"
+
+
+}

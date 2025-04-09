@@ -1,0 +1,10 @@
+{
+    "addEmployeeTestData": {
+      "firstname": "Shamboo",
+      "middlename": "Shiva",
+      "lastname": "Shankara",
+      "employeeid": "0072025",
+      "newlyCreatedEmployeeText": "Shamboo Shankara"
+     
+    }
+}

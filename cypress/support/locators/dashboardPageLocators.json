@@ -1,0 +1,9 @@
+{
+    "attendance_punchin_button_class": ".orangehrm-attendance-card-bar > .oxd-icon-button > .oxd-icon",
+    "admin_submenu_button_text": "Admin",
+    "pim_submenu_button_text": "PIM",
+    "add_employee_button_text": "Add Employee",
+    "employee_list_button_text": "Employee List"
+
+
+}

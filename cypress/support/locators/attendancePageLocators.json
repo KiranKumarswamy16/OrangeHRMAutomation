@@ -1,0 +1,10 @@
+
+
+{
+
+    "attendance_punchin_note_textbox_class": "oxd-textarea",
+    "punchIn_button_type": "button",
+    "punchIn_button_text":"In",
+    "punchOut_button_type":"button",
+    "punchOut_button_text": "Out"
+}

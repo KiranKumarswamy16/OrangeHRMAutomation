@@ -1,0 +1,75 @@
+
+
+{
+
+    "add_button_tag": "button",
+    "add_button_text": "Add",
+
+
+    "userRole_dropdown_parent_tag":"label",
+    "userRole_dropdown_parent_text":"User Role",
+    "userRole_dropdown_child_tag": "div",
+    "userRole_dropdown_child_class":"oxd-select-text-input",
+    "userRole_dropdown_child_text":"ESS",
+
+
+
+    "userStatus_dropdown_parent_tag":"label",
+    "userStatus_dropdown_parent_text":"Status",
+    "userStatus_dropdown_child_tag": "div",
+    "userStatus_dropdown_child_class":"oxd-select-text-input",
+    "userStatus_dropdown_child_text":"Enabled",
+
+
+    "employeeName_textbox_tag":"input",
+    "employeeName_textbox_attribute_name":"placeholder",
+    "employeeName_textbox_attribute_text": "Type for hints...",
+
+
+    "userName_textbox_parent_tag":"label",
+    "userName_textbox_parent_text":"Username",
+    "userName_textbox_child_tag":"input",
+    "userName_textbox_child_class":"oxd-input",
+
+    "userName_textbox_ancestor_class":"oxd-input-group",
+
+    "password_textbox_parent_tag":"label",
+    "password_textbox_parent_text":"Password",
+    "password_textbox_child_tag":"input",
+    "password_textbox_parent_class":"oxd-input",
+
+    "confirmPassword_textbox_parent_tag":"label",
+    "confirmPassword_textbox_parent_text":"Confirm Password",
+    "confirmPassword_textbox_child_tag":"input",
+    "confirmPassword_textbox_parent_class":"oxd-input",
+
+    "save_button_text": "Save",
+    "cancel_button_text": "Cancel",
+
+    "searched_employee_textbox_popup_text": "Shankara",
+
+    "search_button_tag": "button",
+    "search_button_text": "Search",
+
+    "search_username_parent_tag":"label",
+    "search_username_parent_text":"Username",
+    "search_username_ancestor_class":"oxd-input-group",
+    "search_username_child_tag":"input",
+    "search_username_child_class":"oxd-input",
+
+    "delete_user_role_emp_sibling_class": ".oxd-table-cell",
+    "delete_user_role_emp_sibling_text": "Shambu",
+    "delete_user_role_emp_container_class": ".oxd-table-row",
+    "delete_user_role_emp_traget_element_class": ".oxd-icon.bi-trash",
+
+    "yes_delete_popup_message": " Yes, Delete ",
+    "delete_confirmation_no_records_found_message": "No Records Found"
+
+    
+
+
+
+
+
+
+}

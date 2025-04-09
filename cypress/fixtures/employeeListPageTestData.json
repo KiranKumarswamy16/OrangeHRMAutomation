@@ -1,0 +1,12 @@
+{
+    "employeeListTestData": {
+
+      "newlyCreatedEmployeeNameOnAddEmployeePage": "Shamboo Shankara",
+      "searchedEmployeeNameOnEmployeeListPage": "Shamboo Shiva",
+      "employeeIdTextboxText": "0072025",
+      "employeeNameTypeForHintsTextboxText": "Shamboo",
+      "searchedEmployeeNameTextboxText": "Shankara"
+
+     
+    }
+}

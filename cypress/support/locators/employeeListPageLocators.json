@@ -1,0 +1,33 @@
+{
+    "employee_name_textbox_child_tag": "label",
+    "employee_name_textbox_child_text": "Employee Name",
+    "employee_name_textbox_parent_class": "oxd-input-group",
+    "employee_name_textbox_parent_sibling_any_child_attribute": "input[placeholder='Type for hints...']",
+
+    "employee_id_textbox_child_tag": "label",
+    "employee_id_textbox_child_text": "Employee Id",
+    "employee_id_textbox_parent_class": "oxd-input-group",
+    "employee_id_textbox_parent_sibling_child_tag": "input",
+    "employee_id_textbox_parent_sibling_child_class": "oxd-input.oxd-input--active",
+
+    "searched_employee_textbox_popup_text": "Shankara",
+
+
+    "search_button_tag": "button",
+    "search_button_text":"Search",
+    "reset_button_tag": "button",
+    "reset_button_text":"Reset",
+
+
+    "delete_employee_list_emp_sibling_class": ".oxd-table-cell",
+    "delete_employee_list_emp_sibling_text": "0072025",
+    "delete_employee_list_emp_container_class": ".oxd-table-row",
+    "delete_employee_list_emp_traget_element_class": ".oxd-icon.bi-trash",
+
+    "yes_delete_popup_message": " Yes, Delete "
+
+
+ 
+
+  
+}

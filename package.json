@@ -1,0 +1,23 @@
+{
+  "name": "orangehrmautomation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "merge-reports": "mochawesome-merge ./cypress/report/mochawesome-report/*.json > ./report1.json",
+    "generate-htmlreports": "marge report1.json --reportDir ./cypress/report/mochawesome-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cypress": "^14.2.1"
+  },
+  "devDependencies": {
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.4.1",
+    "mochawesome-report-generator": "^6.2.0",
+    "open": "^10.1.0"
+  }
+}
