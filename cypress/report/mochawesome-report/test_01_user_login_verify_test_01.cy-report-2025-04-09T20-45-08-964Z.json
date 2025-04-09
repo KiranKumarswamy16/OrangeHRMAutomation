@@ -1,0 +1,163 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-04-09T20:45:25.053Z",
+    "end": "2025-04-09T20:46:04.513Z",
+    "duration": 39460,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "61091b03-53fa-4ad6-8eed-134f745c1902",
+      "title": "",
+      "fullFile": "cypress\\e2e\\test_01_user_login_verify_test_01.cy.js",
+      "file": "cypress\\e2e\\test_01_user_login_verify_test_01.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "b4d138f6-b3a2-40e1-9581-0b2ece475b6d",
+          "title": "Login Tests",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Login User Validation with Valid Usrname and Password 01",
+              "fullTitle": "Login Tests Login User Validation with Valid Usrname and Password 01",
+              "timedOut": null,
+              "duration": 16752,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "loginPage.enterUsername(loginData.validUsernamePassword.username);\nloginPage.enterPassword(loginData.validUsernamePassword.password);\nloginPage.clickOnLogin();\n(0, _utils.assertText)(_projectConstants.PAGE_TITLES.home);\nloginPage.clickOnUserLogDropdown();\n(0, _utils.waitForElementToLoad)(5000);\nloginPage.clickOnLogut();\n(0, _utils.waitForElementToLoad)(5000);\n(0, _utils.assertText)(_projectConstants.PAGE_TITLES.login);",
+              "err": {},
+              "uuid": "3fae84b9-9f5d-4df9-b5bd-5bdf6edfd027",
+              "parentUUID": "b4d138f6-b3a2-40e1-9581-0b2ece475b6d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Login User Validation with Invalid Username and Valid Password 02",
+              "fullTitle": "Login Tests Login User Validation with Invalid Username and Valid Password 02",
+              "timedOut": null,
+              "duration": 4199,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "loginPage.enterUsername(loginData.invalidUsername.username);\nloginPage.enterPassword(loginData.invalidUsername.password);\nloginPage.clickOnLogin();\n(0, _utils.assertText)(_projectConstants.PAGE_TITLES.invalidUsernameMessage);",
+              "err": {},
+              "uuid": "974ad34a-7a9d-4f98-893c-f97949f7b4db",
+              "parentUUID": "b4d138f6-b3a2-40e1-9581-0b2ece475b6d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Login User Validation with Valid Username and Invalid Password 03",
+              "fullTitle": "Login Tests Login User Validation with Valid Username and Invalid Password 03",
+              "timedOut": null,
+              "duration": 4362,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "loginPage.enterUsername(loginData.invalidPassword.username);\nloginPage.enterPassword(loginData.invalidPassword.password);\nloginPage.clickOnLogin();\n(0, _utils.assertText)(_projectConstants.PAGE_TITLES.invalidPasswordMessage);",
+              "err": {},
+              "uuid": "e5f98957-9b5a-4f1b-8448-3bef59811b20",
+              "parentUUID": "b4d138f6-b3a2-40e1-9581-0b2ece475b6d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Login User Validation with Empty Username and Empty Password 04",
+              "fullTitle": "Login Tests Login User Validation with Empty Username and Empty Password 04",
+              "timedOut": null,
+              "duration": 2328,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "loginPage.enterUsername(loginData.emptyUsernamePassword.username);\nloginPage.enterPassword(loginData.emptyUsernamePassword.password);\nloginPage.clickOnLogin();\n(0, _utils.assertText)(_projectConstants.PAGE_TITLES.emptyUsernamePasswordMessage);",
+              "err": {},
+              "uuid": "3e170085-8dc2-494f-b209-4b5cc5ab1ea1",
+              "parentUUID": "b4d138f6-b3a2-40e1-9581-0b2ece475b6d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "3fae84b9-9f5d-4df9-b5bd-5bdf6edfd027",
+            "974ad34a-7a9d-4f98-893c-f97949f7b4db",
+            "e5f98957-9b5a-4f1b-8448-3bef59811b20",
+            "3e170085-8dc2-494f-b209-4b5cc5ab1ea1"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 27641,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/report/mochawesome-report",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "charts": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
